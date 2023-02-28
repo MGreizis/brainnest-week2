@@ -33,3 +33,36 @@
 * {
     font-family: 'Roboto', sans-serif;
 }
+
+.btn {
+    background-color: #3882F6;
+    color: white;
+    border-radius: 10px;
+    border: none;
+    padding: 0.3rem 0.5rem;
+}
+
+a {
+    text-decoration: none;
+}
+header, footer {
+    background-color: #1F2937;
+}
+header {
+    color: #F9FAF8;
+}
+header>.logo {
+    font-size: 24px;
+}
+header>.main-text {
+    font-size: 48px;
+    font-weight: 900;
+}
+header>a, 
+header>.secondary-text {
+    color: #E5E7EB;
+    font-size: 18px;
+}
+footer {
+    text-align: center;
+}
