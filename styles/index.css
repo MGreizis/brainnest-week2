@@ -1,0 +1,26 @@
+.quote-section {
+    background: #e5e7eb;
+    margin: 5rem 0;
+}
+
+.quote-text {
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+    color: #1f2937;
+    max-width: 75%;
+    margin: auto;
+    padding: 5rem 0;
+    padding-bottom: 0;
+    text-align: center;
+}
+
+.quote-author {
+    font-size: 18px;
+    font-weight: 700;
+    color: #1f2937;
+    max-width: 75%;
+    margin: 0 auto;
+    text-align: right;
+    padding-bottom: 5rem;
+}
