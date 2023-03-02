@@ -2,9 +2,14 @@
   display: inline-flex;
   flex-wrap: nowrap;
   justify-content: space-around;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 2rem auto;
   width: 100%;
+}
+
+.heading-text {
+    text-align: center;
+    margin: 1rem auto;
+    padding: 1rem;
 }
 
 figcaption {
@@ -20,20 +25,25 @@ img {
     display: block;
     transition-duration: 0.4s;
     margin: auto;
-    color: black;
-    background-color: white;
+    color: white;
+    background-color: #1F2937;
 }
 
 .btn:hover {
-  background-color: black;
+  background-color: #3882F6;
   color: white;
 }
 
-.secondary-text{
-    color: white;
-    justify-content: space-around;
-    padding-left: 10px;
-}
 a:hover {
-    color: rgba(197, 240, 240, 0.897);
+    color: #3882F6;
+}
+
+section>h2 {
+    text-align: center;
+    margin: 1rem auto;
+}
+
+section>p {
+    text-align: center;
+    margin: 1rem auto;
 }
