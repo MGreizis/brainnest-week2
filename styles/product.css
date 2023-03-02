@@ -20,6 +20,8 @@ img {
     display: block;
     transition-duration: 0.4s;
     margin: auto;
+    color: black;
+    background-color: white;
 }
 
 .btn:hover {
