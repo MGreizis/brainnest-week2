@@ -1,3 +1,17 @@
 .getInTouchContainer{
     border: solid black;
+    margin: 5%;
+}
+input{
+    margin: 3%;
+}
+h1, .getInTouchContainer{
+    color: rgba(6, 6, 105, 0.839);
+}
+.inputContainer{
+    border: solid black;
+}
+.halfBlock1, .halfBlock2{
+    display: flex;
+    justify-content: center;
 }
