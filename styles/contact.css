@@ -1,17 +1,16 @@
 .getInTouchContainer{
-    border: solid black;
+    border: solid 0.5px black;
+    border-radius: 5px;
     margin: 5%;
-}
-input{
-    margin: 3%;
-}
-h1, .getInTouchContainer{
+    padding: 2% 5%;
     color: rgba(6, 6, 105, 0.839);
 }
 .inputContainer{
-    border: solid black;
-}
-.halfBlock1, .halfBlock2{
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+}
+.inputContainer input, .inputContainer textarea {
+    margin: 3%;
+    font-size: 14px;
+    padding: 5px;
 }
