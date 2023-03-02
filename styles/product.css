@@ -1,0 +1,49 @@
+.flex-container {
+  display: inline-flex;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  margin: 2rem auto;
+  width: 100%;
+}
+
+.heading-text {
+    text-align: center;
+    margin: 1rem auto;
+    padding: 1rem;
+}
+
+figcaption {
+    font-size: 32px;
+    text-align: center;
+}
+
+img {
+    height: 300px;
+}
+
+.btn {
+    display: block;
+    transition-duration: 0.4s;
+    margin: auto;
+    color: white;
+    background-color: #1F2937;
+}
+
+.btn:hover {
+  background-color: #3882F6;
+  color: white;
+}
+
+a:hover {
+    color: #3882F6;
+}
+
+section>h2 {
+    text-align: center;
+    margin: 1rem auto;
+}
+
+section>p {
+    text-align: center;
+    margin: 1rem auto;
+}
