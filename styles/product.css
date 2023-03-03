@@ -1,9 +1,16 @@
-.flex-container {
-  display: inline-flex;
-  flex-wrap: nowrap;
-  justify-content: space-around;
+.products-container {
+  display: flex;
+  flex-wrap: wrap;
   margin: 2rem auto;
-  width: 100%;
+  justify-content: space-around;
+  padding: 0 2rem;
+}
+
+.products-container figure {
+    box-shadow: 0 0.5rem 1rem 0 rgba(77, 73, 76, 0.4);
+    padding: 1rem;
+    margin: 1rem 3rem;
+    border-radius: 10px;
 }
 
 .heading-text {
@@ -17,10 +24,6 @@ figcaption {
     text-align: center;
 }
 
-img {
-    height: 300px;
-}
-
 .btn {
     display: block;
     transition-duration: 0.4s;
@@ -28,16 +31,13 @@ img {
     color: white;
     background-color: #1F2937;
     font-size: 24px;
+    cursor: pointer;
 }
 
 .btn:hover {
   background-color: #3882F6;
   color: white;
 }
-
-/* a:hover {
-    color: #3882F6;
-} */
 
 section>h2 {
     text-align: center;
