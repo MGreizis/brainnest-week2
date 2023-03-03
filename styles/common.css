@@ -47,6 +47,9 @@
 a {
     text-decoration: none;
 }
+a:hover {
+    color: #3882F6;
+}
 header, footer {
     background-color: #1F2937;
 }
