@@ -27,6 +27,7 @@ img {
     margin: auto;
     color: white;
     background-color: #1F2937;
+    font-size: 24px;
 }
 
 .btn:hover {
@@ -46,4 +47,10 @@ section>h2 {
 section>p {
     text-align: center;
     margin: 1rem auto;
+}
+
+img {
+    display: flexbox; 
+    width: 300px;
+    height: 300px;
 }
