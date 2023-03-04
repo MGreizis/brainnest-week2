@@ -74,7 +74,7 @@ header>.secondary-text {
     color: #E5E7EB;
     font-size: 18px;
 }
-header > div > a {
+header > nav > a {
     color: #e5e7eb;
     font-size: 18px;
     margin-left: 1rem;
@@ -92,3 +92,9 @@ footer>.secondary-text {
     padding: 2rem 0px;
 }
 
+.back {
+    color: white;
+    text-align: center;
+    text-decoration: underline;
+    padding-top: 80px;
+}
