@@ -115,7 +115,6 @@
 
 .image-wrapper img {
   max-width: 100%;
-  height: auto;
   display: block;
   border-radius: 15px;
 }
@@ -187,5 +186,24 @@
   .box {
     margin-top: 4rem;
     margin-right: 0;
+  }
+  .image-wrapper {
+    display: none;
+  }
+  #first-text {
+    padding: 0;
+  }
+  .header-wrapper {
+    background-image: url(../images/crochet-img.jpeg);
+    background-size: cover;
+    background-position: 0 -70px;
+    padding: 0.5rem;
+  }
+  .header-wrapper #first-line {
+    color: #1f2937;
+  }
+  .header-wrapper .secondary-text {
+    color: #1f2937;
+    font-weight: 900;
   }
 }
