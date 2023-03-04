@@ -1,16 +1,56 @@
 .getInTouchContainer{
+    display: flex;
+    align-items: center;
+    flex-direction:column ;
+    background-image: url(../images/contactimg.png);
+    background-size: cover;
     box-shadow: 0 0.5rem 1rem 0 rgba(54, 51, 53, 0.3);
     border-radius: 10px;
     margin: 5%;
     padding: 2% 5%;
-    color: rgba(6, 6, 105, 0.839);
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
 }
-.inputContainer{
+
+.inputContainer {
     display: flex;
     flex-direction: column;
+    width: 50%;
 }
+
 .inputContainer input, .inputContainer textarea {
-    margin: 3%;
-    font-size: 14px;
-    padding: 5px;
+    font-size: 20px;
+    margin-bottom: 20px;
+    padding: 10px;
+    border-radius: 7px;
+    box-shadow: 0 0.5rem 1rem 0 rgba(54, 51, 53, 0.3);
+    color: black;
+}
+
+.commentInput {
+resize: none;
+height: 100px;
+}
+
+
+h1 {
+    color: rgba(6, 6, 105, 0.839);
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    padding-top: 50px;
+    font-size: 50px;
+}
+
+.inputContainer label {
+    margin-bottom: 10px;
+}
+
+@media screen and (max-width: 600px) {
+.inputContainer {
+    width: 80%;
+    padding-top: 15px;
+}
 }
