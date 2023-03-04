@@ -54,3 +54,10 @@ img {
     width: 300px;
     height: 300px;
 }
+
+.back {
+    color: white;
+    text-align: center;
+    text-decoration: underline;
+    padding-bottom: -80px;
+}
