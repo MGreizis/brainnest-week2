@@ -43,7 +43,7 @@
   height: 100%;
 }
 
-.box p {
+.box figcaption {
   text-align: center;
   margin-top: 0.5rem;
   color: #1f2937;
@@ -167,4 +167,35 @@
   width: 40%;
   justify-content: center;
   align-items: center;
+}
+
+@media screen and (max-width: 600px) {
+  #first-text {
+    padding: 2rem 2rem;
+  }
+
+  #btn-one {
+    padding: 0.5rem;
+  }
+
+  .information-header {
+    padding: 2rem 0;
+  }
+
+  #action-call {
+    margin: 70px 20px;
+    padding: 2rem 2rem;
+  }
+
+  .box-wrapper {
+    flex-direction: column;
+    align-items:center;
+    justify-content: center;
+    flex-grow: 1;
+  }
+
+  .box {
+    margin-top: 4rem;
+    margin-right: 0;
+  }
 }
